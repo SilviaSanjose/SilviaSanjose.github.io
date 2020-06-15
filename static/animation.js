@@ -1,6 +1,10 @@
-function setStyles(id, time) {
+function setStyles(name, time) {
+    let elementos = document.getElementsByClassName(name);
+    console.log(elementos);
     setTimeout(function(){ 
-        document.getElementById(id).style.cssText = "opacity: 1;transform: scale(1);";
+        for (var i = 0; i < elementos.length; i++ ) {
+            elementos[i].style.cssText = "opacity: 1;transform: scale(1);";
+        }
     }, time);
 }
 

@@ -230,16 +230,14 @@ footer p {
     }
     .skills-line {
         display: inline-block;
-        padding: 0px 15px
+        padding: 0px 15px;
+    }
+    .sql, .skills-line {
+        transform: scale(0);
+        opacity: 0;
+        transition: 1s;
     }
     .about {
         margin-top: 31px;
     }
  }
-
-/*
-@media (min-width: 992px) { ... }
-
-
-@media (min-width: 1200px) { ... }
-*/
