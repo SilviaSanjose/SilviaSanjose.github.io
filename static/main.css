@@ -1,0 +1,245 @@
+body {
+    background-color: #f3eeee;
+}
+header {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+header a {
+    color: white;
+}
+.nav-menu {
+    justify-content: flex-end;
+}
+.nav-icon {
+    background-image: url(media/nav.png);
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-size: 100% 100%;
+}
+.navbar-nav {
+    text-align: center;
+    align-items: center;
+}
+.navbar-nav li {
+    height: 100%;
+}
+.nav-link:hover {
+    color: chocolate;
+    
+}
+.social li {
+    display: inline-block;
+}
+/*Section wellcome*/
+.wellcome {
+    padding-top: 104px;
+    font-weight: bold;
+    position: relative;
+}
+.wellcome h1 {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 61px;
+    margin: 20px 0 40px;
+}
+.wellcome img {
+    width: 14%;
+    position: relative;
+    opacity: 1;
+}
+.left {
+    left: 36%;
+    animation: moveleft 4s;
+}
+@keyframes moveleft {
+    from {
+        left: 0;
+        opacity: 0;
+    }
+    to {
+        left: 36%;
+        opacity: 1;
+    }
+}
+.right {
+    float: right;
+    right: 36.02%;
+    animation: moveright 4s;
+}
+@keyframes moveright {
+    from {
+        right: 0; 
+        opacity: 0;
+    }
+    to {
+        right: 36%; 
+        opacity: 1;
+    }
+}
+.skills-mobile {
+    display: none;
+}
+.skills {
+    transition: 1s;
+    opacity: 0;
+    position: absolute;
+    font-size: 28px;
+    font-family: verdana;
+    color: #acacac;
+    transform: scale(0);
+}
+#python {
+    top: 50%;
+    left: 11%;
+}
+#django{
+    top: 64%;
+    left: 17%;
+}
+#flask{
+    top: 79%;
+    left: 4%;
+}
+#html{
+    top: 51%;
+    right: 16%;
+}
+#css{
+    top: 64%;
+    right: 24%;
+}
+#sql{
+    top: 80%;
+    right: 17%;
+}
+
+/*Section about*/
+.about {
+    padding: 7%;
+    margin-top: 60px;
+    text-align: center;
+    background-image: url("media/pluma.jpg");
+    background-size: cover;
+    
+}
+.about img {
+    max-width: 100%;
+}
+
+/*Section projects*/
+.projects {
+    margin-top: 60px;
+}
+.anu-sep {
+    padding-top: 51px;
+}
+.anu-header h5 {
+    padding: 0 23px;
+}
+.anu-header {
+    text-align: center;
+    margin-top: 18px;
+}
+.anu-header:hover a, .anu-header:hover h5{
+    display: inline-block;
+    color: black;
+}
+.anu-header a{
+    display: none;
+    color: black;
+}
+.anu-img {
+    height: 300px;
+    overflow-y: auto;
+}
+.anu-box img {
+    width: 100%;
+}
+.video {
+    text-align: center;
+    background-color: #f7f1f6;
+}
+.video video{
+    width: 70%;
+}
+/*Footer*/
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 82px;
+}
+footer p {
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+
+
+@media (max-width: 576px) { 
+    .wellcome h1 {
+        font-size: 48px;
+    }
+    .wellcome img {
+        width: 30%;
+    }
+    .left {
+        left: 20%;
+    }
+    @keyframes moveleft {
+        from {
+            left: 0;
+        }
+        to {
+            left: 20%;
+        }
+    }
+    .right {
+        right: 20.02%;
+    }
+    @keyframes moveright {
+        from {
+            right: 0; 
+        }
+        to {
+            right: 20%; 
+        }
+    }
+ }
+
+
+@media (max-width: 768px) { 
+    .skills {
+        display: none;
+    }
+    .first-skill {
+        margin-top: 12px;
+    }
+    .skills-mobile {
+        display: block;
+        text-align: center;
+        padding-top: 7px;
+        font-family: verdana;
+        color: #acacac;
+    }
+    .skills-line {
+        display: inline-block;
+        padding: 0px 15px
+    }
+    .about {
+        margin-top: 31px;
+    }
+ }
+
+/*
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+*/
