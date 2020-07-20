@@ -9,9 +9,10 @@ function setStyles(name, time) {
 }
 
 setStyles('python', 1500);
-setStyles('django', 3000);
-setStyles('flask', 2500);
-setStyles('html', 3500);
 setStyles('css', 2000);
+setStyles('flask', 2500);
+setStyles('django', 3000);
+setStyles('html', 3500);
 setStyles('sql', 4000);
+setStyles('java', 4500);
 
