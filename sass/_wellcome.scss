@@ -1,0 +1,148 @@
+/*Section wellcome*/
+.wellcome {
+    padding-top: 104px;
+    font-weight: bold;
+    position: relative;
+}
+.wellcome h1 {
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 48px;
+    margin: 20px 0 40px;
+    @media (min-width: 576px) { 
+        font-size: 61px;
+    }
+}
+.wellcome img {
+    width: 30%;
+    position: relative;
+    opacity: 1;
+    @media (min-width: 576px) {
+        width: 14%;
+    }
+}
+.left {
+    left: 20%;
+    animation: moveleft 4s;
+    @media (min-width: 576px) {
+        left: 36%;
+    }
+}
+@keyframes moveleft {
+    from {
+        left: 0;
+    }
+    to {
+        left: 20%;
+    }
+}
+@media (min-width: 576px) {
+    @keyframes moveleft {
+        from {
+            left: 0;
+            opacity: 0;
+        }
+        to {
+            left: 36%;
+            opacity: 1;
+        }
+    }
+}
+
+.right {
+    float: right;
+    right: 20.02%;
+    animation: moveright 4s;
+    @media (min-width: 576px) {
+        right: 36.02%;
+
+    }
+}
+@keyframes moveright {
+    from {
+        right: 0; 
+    }
+    to {
+        right: 20%; 
+    }
+}
+@media (min-width: 576px) { 
+    @keyframes moveright {
+        from {
+            right: 0; 
+            opacity: 0;
+        }
+        to {
+            right: 36%; 
+            opacity: 1;
+        }
+    }
+}
+   
+
+.skills-mobile {
+    display: block;
+    text-align: center;
+    padding-top: 7px;
+    font-family: verdana;
+    color: #acacac;
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+.first-skill {
+    margin-top: 12px;
+}
+.skills-line {
+    display: inline-block;
+    padding: 0px 15px;
+}
+.sql, .skills-line {
+    transform: scale(0);
+    opacity: 0;
+    transition: 1s;
+}
+
+/*PC*/
+.skills {
+    display: none;
+    @media (min-width: 768px) {
+        display: block;
+        transition: 1s;
+        opacity: 0;
+        position: absolute;
+        font-size: 28px;
+        font-family: verdana;
+        color: #acacac;
+        transform: scale(0);
+    }
+}
+#python {
+    top: 50%;
+    left: 11%;
+}
+#django{
+    top: 64%;
+    left: 15%;
+}
+#flask{
+    top: 79%;
+    left: 4%;
+}
+#java{
+    top: 86%;
+    left: 22%;
+}
+#html{
+    top: 51%;
+    right: 16%;
+}
+#css{
+    top: 64%;
+    right: 24%;
+}
+#sql{
+    top: 80%;
+    right: 17%;
+}

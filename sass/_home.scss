@@ -1,0 +1,59 @@
+body {
+    background-color: #f3eeee;
+}
+header {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+header a {
+    color: white;
+}
+.nav-menu {
+    justify-content: flex-end;
+}
+.nav-icon {
+    background-image: url(media/nav.png);
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-size: 100% 100%;
+}
+.navbar-nav {
+    align-items: center;
+}
+.nav-link:hover {
+    color: #e76eb7;
+}
+.social li {
+    display: inline-block;
+}
+
+/*Section about*/
+.about {
+    padding: 7%;
+    margin-top: 31px;
+    text-align: center;
+    background-image: url("media/pluma.jpg");
+    background-size: cover;
+    @media (min-width: 768px) {
+        margin-top: 60px;
+    }
+}
+.about img {
+    max-width: 100%;
+}
+
+/*Footer*/
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 82px;
+}
+
+
+
+
