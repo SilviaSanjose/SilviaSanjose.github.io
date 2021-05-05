@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio Silvia Sanjosé",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilviaSanjose/SilviaSanjose.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Silvia Sanjosé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SilviaSanjose/SilviaSanjose.github.io/issues"
+  },
+  "homepage": "https://github.com/SilviaSanjose/SilviaSanjose.github.io#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^5.0.0"
+  }
+}
