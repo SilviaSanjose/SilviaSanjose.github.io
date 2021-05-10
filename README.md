@@ -9,9 +9,6 @@
   <a href="https://github.com/SilviaSanjose/SilviaSanjosehub.io.git/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/SilviaSanjose/SilviaSanjosehub.io.git/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/SilviaSanjose/portfolio" />
-  </a>
 </p>
 
 > Portfolio Silvia Sanjosé
@@ -22,12 +19,6 @@
 
 ```sh
 npm install
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
 
 ## Author
