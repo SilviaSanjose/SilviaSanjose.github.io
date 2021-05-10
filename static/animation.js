@@ -15,4 +15,5 @@ setStyles('django', 3000);
 setStyles('html', 3500);
 setStyles('sql', 4000);
 setStyles('java', 4500);
+setStyles('javascript', 5000);
 
