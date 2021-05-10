@@ -1,5 +1,10 @@
 body {
-    background-color: #f3eeee;
+    //background-color: #f3eeee;
+    background-color: $c-lightpink;
+    font-family: Nunito;
+}
+h2,h3,h4,h5,h6 {
+    font-family: NunitoBold;
 }
 header {
     background-color: black;
@@ -9,6 +14,7 @@ header {
 }
 header a {
     color: white;
+    font-weight: bold;
 }
 .nav-menu {
     justify-content: flex-end;
