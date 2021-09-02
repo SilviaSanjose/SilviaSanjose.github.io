@@ -3,14 +3,36 @@ $c-darkpink: #d10b83;
 $c-lightpink: #faf4f8;
 
 @font-face {
-    font-family: "Nunito";
-    src: url("/static/fonts/Nunito-Regular.ttf");
+  font-family: "Nunito";
+  src: url("fonts/Nunito-Regular.ttf");
 }
 @font-face {
-    font-family: "NunitoBold";
-    src: url("/static/fonts/Nunito-Bold.ttf");
+  font-family: "NunitoBold";
+  src: url("fonts/Nunito-Bold.ttf");
 }
 @font-face {
-    font-family: "RoseCake";
-    src: url("/static/fonts/Rose-Cake.otf");
+  font-family: "RoseCake";
+  src: url("fonts/Rose-Cake.otf");
 }
+
+// Small devices (landscape phones, less than 576px)
+$max-xs: "(max-width: 575.98px)";
+// Small devices (landscape phones, less than 768px)
+$max-sm: "(max-width: 767.98px)";
+// Medium devices (tablets, less than 992px)
+$max-md: "(max-width: 991.98px)";
+// Large devices (desktops, less than 1200px)
+$max-lg: "(max-width: 1199.98px)";
+// Large devices (desktops, less than 1400px)
+$max-xl: "(max-width: 1399.98px)";
+
+// Small devices (landscape phones, 576px and up)
+$min-sm: "(min-width: 576px)";
+// Medium devices (tablets, 768px and up)
+$min-md: "(min-width: 768px)";
+// Large devices (desktops, 992px and up)
+$min-lg: "(min-width: 992px)";
+// Extra large devices (large desktops, 1200px and up)
+$min-xl: "(min-width: 1200px);";
+// Extra large devices (large desktops, 1400px and up)
+$min-xxl: "(min-width: 1400px);";

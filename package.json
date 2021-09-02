@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/SilviaSanjose/SilviaSanjose.github.io#readme",
   "dependencies": {
-    "bootstrap-icons": "^1.4.1"
-  },
-  "devDependencies": {
+    "bootstrap-icons": "^1.4.1",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
-    "node-sass": "^5.0.0"
-  }
+    "node-sass": "^6.0.1",
+    "sass": "^1.39.0"
+  },
+  "devDependencies": {}
 }
