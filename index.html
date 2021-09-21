@@ -1,200 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio de Silvia Sanjosé, desarrolladora Front-end / FullStack Python. Información sobre tecnologías y proyectos: HTML, CSS, JS, Python, React, Git..."/>
-	<meta name="keywords" content="html5, portfolio, css, javascript, frontend, fullstack, python, django, java, alexa, dialogflow, github, agile, scrum, chatbots"/>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Silvia Sanjosé, desarrolladora Front-end / FullStack Python. Información sobre tecnologías y proyectos: HTML, CSS, JS, Python, React, Git..."
+    />
+    <meta
+      name="keywords"
+      content="html5, portfolio, css, javascript, frontend, fullstack, python, django, java, alexa, dialogflow, github, agile, scrum, chatbots"
+    />
+
     <script language="JavaScript" src="static/animation.js"></script>
     <!-- CSS only -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="static/main.css" />
     <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/x-icon" href="static/media/favicon.ico">
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="static/media/favicon.ico" />
     <title>Silvia Sanjosé</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="static/media/s.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="nav-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse nav-menu" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"
+          ><img src="static/media/s.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="nav-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-menu" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about"
+                >About<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <ul class="social">
+                <li class="mail">
+                  <a class="nav-link" href="mailto:sanjose.silvia@gmail.com"
+                    ><img src="static/media/mail.png" alt=""
+                  /></a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                <li class="linkedin">
+                  <a
+                    class="nav-link"
+                    href="https://www.linkedin.com/in/silvia-sanjose/"
+                    target="_blank"
+                    ><img src="static/media/Linkedin.png" alt=""
+                  /></a>
                 </li>
-                <li class="nav-item">
-                    <ul class="social">
-                        <li class="mail"><a class="nav-link" href="mailto:sanjose.silvia@gmail.com"><img src="static/media/mail.png" alt=""/></a></li>
-                        <li class="linkedin"><a class="nav-link" href="https://www.linkedin.com/in/silvia-sanjose/" target="_blank"><img src="static/media/Linkedin.png" alt=""/></a></li>
-                        <li class="github"><a class="nav-link" href="https://github.com/SilviaSanjose" target="_blank"><img src="static/media/Github.png" alt=""/></a></li>
-                    </ul>
+                <li class="github">
+                  <a
+                    class="nav-link"
+                    href="https://github.com/SilviaSanjose"
+                    target="_blank"
+                    ><img src="static/media/Github.png" alt=""
+                  /></a>
                 </li>
               </ul>
-            </div>
-          </nav>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="wellcome">
-            <h1>Silvia Sanjosé</h1>
-            <img class="left" src="static/media/left.jpg" style="max-width: 100%;" alt="imagen izquierda Silvia"/>
-            <img class="right" src="static/media/right.jpg" style="max-width: 100%;" alt="imagen derecha Silvia"/>
-            <p class="skills python" id="python">PYTHON</p>
-            <p class="skills django" id="django">DJANGO</p>
-            <p class="skills flask" id="flask">FLASK</p>
-            <p class="skills html" id="html">HTML5</p>
-            <p class="skills css" id="css">CSS</p>
-            <p class="skills sql" id="sql">MYSQL</p>
-            <p class="skills java" id="java">JAVA</p>
-            <p class="skills js" id="js">JAVASCRIPT</p>
-            <div class="skills-mobile first-skill">
-                <div class="skills-line html">HTML5</div>
-                <div class="skills-line css">CSS</div>
-                <div class="skills-line js">JAVASCRIPT</div>
-            </div>
-            <div class="skills-mobile sql">MYSQL</div>
-            <div class="skills-mobile ">
-                <div class="skills-line python">PYTHON</div>
-                <div class="skills-line django">DJANGO</div>
-                <div class="skills-line flask">FLASK</div>
-                <div class="skills-line java">JAVA</div>
-            </div>
-        </section>
-        <a name="about"></a>
-        <section class="about">
-            <p>Soy Silvia Sanjosé y estoy comenzando mi carrera como desarrolladora junior. </p>
-            <p>Mi trayectoria laboral ha estado muy ligada a la atención al cliente, lo que me enseñó a 
-                disfrutar el trabajo en equipo. </p>
-            <p>Hace unos años, comencé a interesarme por el Marketing digital, Seo... y poco a poco mi interés
-                ha ido creciendo cada vez más al entorno de desarrollo, comenzando por la parte front-end, y gracias a una 
-                transformación laboral de talento interno, he podido orientar este interés también al desarrollo back-end.</p>
-            <p>Creo que el futuro está codificado, y quiero ayudar a escribirlo.</p>
-            
-        </section>
-        <a name="portfolio"></a>
-        <section class="container projects">
-            <ul class="nav nav-tabs justify-content-center border-0" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="btn active" id="front-tab" data-toggle="tab" href="#fronttab" role="tab" aria-controls="front" aria-selected="true">FRONT END</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="btn" id="python-tab" data-toggle="tab" href="#pythontab" role="tab" aria-controls="python" aria-selected="false">PYTHON</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="btn" id="java-tab" data-toggle="tab" href="#javatab" role="tab" aria-controls="java" aria-selected="false">JAVA</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="fronttab" role="tabpanel" aria-labelledby="front-tab">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 anu-sep mx-auto"> 
-                            <div class="anu-box">
-                                <div class="anu-header">
-                                    <a href="https://silviasanjose.github.io/Responsive-Web/" target="_blank">Demo</a>
-                                    <h5>HTML5 y CSS</h5>
-                                    <a href="https://github.com/SilviaSanjose/Responsive-Web-Html-Css" target="_blank">Code</a>
-                                </div>
-                                <div class="anu-img">
-                                    <!--<div>
+      <section class="wellcome">
+        <h1>Silvia Sanjosé</h1>
+        <img
+          class="left"
+          src="static/media/left.jpg"
+          style="max-width: 100%"
+          alt="imagen izquierda Silvia"
+        />
+        <img
+          class="right"
+          src="static/media/right.jpg"
+          style="max-width: 100%"
+          alt="imagen derecha Silvia"
+        />
+        <p class="skills python" id="python">PYTHON</p>
+        <p class="skills django" id="django">DJANGO</p>
+        <p class="skills flask" id="flask">FLASK</p>
+        <p class="skills html" id="html">HTML5</p>
+        <p class="skills css" id="css">CSS</p>
+        <p class="skills sql" id="sql">MYSQL</p>
+        <p class="skills java" id="java">JAVA</p>
+        <p class="skills js" id="js">JAVASCRIPT</p>
+        <div class="skills-mobile first-skill">
+          <div class="skills-line html">HTML5</div>
+          <div class="skills-line css">CSS</div>
+          <div class="skills-line js">JAVASCRIPT</div>
+        </div>
+        <div class="skills-mobile sql">MYSQL</div>
+        <div class="skills-mobile">
+          <div class="skills-line python">PYTHON</div>
+          <div class="skills-line django">DJANGO</div>
+          <div class="skills-line flask">FLASK</div>
+          <div class="skills-line java">JAVA</div>
+        </div>
+      </section>
+      <a name="about"></a>
+      <section class="about">
+        <p>
+          Soy Silvia Sanjosé y estoy comenzando mi carrera como desarrolladora
+          junior.
+        </p>
+        <p>
+          Mi trayectoria laboral ha estado muy ligada a la atención al cliente,
+          lo que me enseñó a disfrutar el trabajo en equipo.
+        </p>
+        <p>
+          Hace unos años, comencé a interesarme por el Marketing digital, Seo...
+          y poco a poco mi interés ha ido creciendo cada vez más al entorno de
+          desarrollo, comenzando por la parte front-end, y gracias a una
+          transformación laboral de talento interno, he podido orientar este
+          interés también al desarrollo back-end.
+        </p>
+        <p>Creo que el futuro está codificado, y quiero ayudar a escribirlo.</p>
+      </section>
+      <a name="portfolio"></a>
+      <section class="container projects">
+        <ul
+          class="nav nav-tabs justify-content-center border-0"
+          id="myTab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <a
+              class="btn active"
+              id="front-tab"
+              data-toggle="tab"
+              href="#fronttab"
+              role="tab"
+              aria-controls="front"
+              aria-selected="true"
+              >FRONT END</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="btn"
+              id="python-tab"
+              data-toggle="tab"
+              href="#pythontab"
+              role="tab"
+              aria-controls="python"
+              aria-selected="false"
+              >PYTHON</a
+            >
+          </li>
+          <li class="nav-item" role="presentation">
+            <a
+              class="btn"
+              id="java-tab"
+              data-toggle="tab"
+              href="#javatab"
+              role="tab"
+              aria-controls="java"
+              aria-selected="false"
+              >JAVA</a
+            >
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div
+            class="tab-pane fade show active"
+            id="fronttab"
+            role="tabpanel"
+            aria-labelledby="front-tab"
+          >
+            <div class="row">
+              <div class="col-sm-12 col-md-6 anu-sep mx-auto">
+                <div class="anu-box">
+                  <div class="anu-header">
+                    <a
+                      href="https://silviasanjose.github.io/Responsive-Web/"
+                      target="_blank"
+                      >Demo</a
+                    >
+                    <h5>HTML5 y CSS</h5>
+                    <a
+                      href="https://github.com/SilviaSanjose/Responsive-Web-Html-Css"
+                      target="_blank"
+                      >Code</a
+                    >
+                  </div>
+                  <div class="anu-img">
+                    <!--<div>
                                         <a href="https://silviasanjose.github.io/Responsive-Web/" target="_blank">Demo</a>
                                         <a href="https://github.com/SilviaSanjose/Responsive-Web-Html-Css" target="_blank">Code</a>
                                     </div>-->
-                                    <img src="static/media/My Web AAA.png" alt="imagen proyecto HTML">
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- end row-->
-                </div> <!-- end tab-->
-                <div class="tab-pane fade" id="pythontab" role="tabpanel" aria-labelledby="python-tab">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 anu-sep mx-auto">
-                            <div class="anu-box">
-                                <div class="anu-header">
-                                    <a href="http://silvisil.pythonanywhere.com/anuncios/" target="_blank">Demo</a>
-                                    <h5>DJANGO</h5>
-                                    <a href="https://github.com/SilviaSanjose/Portal_Anuncios_Django" target="_blank">Code</a>
-                                </div>
-                                <div class="anu-img">
-                                    <img src="static/media/Django.png" alt="imagen proyecto Django">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 anu-sep mx-auto">
-                            <div class="anu-box">
-                                <div class="anu-header">
-                                    <a href="http://silviaportal.pythonanywhere.com/" target="_blank">Demo</a>
-                                    <h5>FLASK</h5>
-                                    <a href="https://github.com/SilviaSanjose/Portal_Anuncios_Flask" target="_blank">Code</a>
-                                </div>
-                                <div class="anu-img">
-                                    <img src="static/media/flask.png" alt="imagen proyecto Flask">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 anu-sep mx-auto">
-                            <div class="anu-box">
-                                <div class="anu-header">
-                                    <a href="https://github.com/SilviaSanjose/Music_Project_DB_PyQt5/tree/master/demo" target="_blank">Demo</a>
-                                    <h5>PYQT5</h5>
-                                    <a href="https://github.com/SilviaSanjose/Music_Project_DB_PyQt5" target="_blank">Code</a>
-                                </div>
-                                <div class="anu-img video">
-                                    <video controls autoplay>
-                                        <source src="static/media/ProjectMusic.mov" type="video/mp4">
-                                    </video>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- end row-->
-                </div> <!-- end tab-->
-                <div class="tab-pane fade" id="javatab" role="tabpanel" aria-labelledby="java-tab">
-                    <div class="row">  
-                        <div class="col-sm-12 col-md-6 anu-sep mx-auto">
-                            <div class="anu-box">
-                                <div class="anu-header">
-                                    <a href="https://github.com/SilviaSanjose/Java_windowbuilderApp/tree/master/Ejecutable" target="_blank">Demo</a>
-                                    <h5>JAVA(windowbuilder)</h5>
-                                    <a href="https://github.com/SilviaSanjose/Java_windowbuilderApp" target="_blank">Code</a>
-                                </div>
-                                <div class="anu-img">
-                                    <img class="img-java-builder" src="static/media/JavaApp.png" alt="imagen proyecto Java">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6 anu-sep mx-auto">
-                            <div class="anu-box">
-                                <div class="anu-header">
-                                    <a href="https://github.com/SilviaSanjose/JavaWeb_PortalAnuncios/tree/master/demo" target="_blank">Demo</a>
-                                    <h5>JAVA WEB</h5>
-                                    <a href="https://github.com/SilviaSanjose/JavaWeb_PortalAnuncios" target="_blank">Code</a>
-                                </div>
-                                <div class="anu-img">
-                                    <img src="static/media/JavaWeb.png" alt="imagen proyecto Java">
-                                </div>
-                            </div>
-                        </div>
-                    </div>  <!-- end row-->
-
-                </div> <!-- end tab-->
+                    <img
+                      src="static/media/MyWebAAA.png"
+                      alt="imagen proyecto HTML"
+                    />
+                  </div>
+                </div>
               </div>
+            </div>
+            <!-- end row-->
+          </div>
+          <!-- end tab-->
+          <div
+            class="tab-pane fade"
+            id="pythontab"
+            role="tabpanel"
+            aria-labelledby="python-tab"
+          >
+            <div class="row">
+              <div class="col-sm-12 col-md-6 anu-sep mx-auto">
+                <div class="anu-box">
+                  <div class="anu-header">
+                    <a
+                      href="http://silvisil.pythonanywhere.com/anuncios/"
+                      target="_blank"
+                      >Demo</a
+                    >
+                    <h5>DJANGO</h5>
+                    <a
+                      href="https://github.com/SilviaSanjose/Portal_Anuncios_Django"
+                      target="_blank"
+                      >Code</a
+                    >
+                  </div>
+                  <div class="anu-img">
+                    <img
+                      src="static/media/Django.png"
+                      alt="imagen proyecto Django"
+                    />
+                  </div>
+                </div>
               </div>
-
-
-            
-        </section>
+              <div class="col-sm-12 col-md-6 anu-sep mx-auto">
+                <div class="anu-box">
+                  <div class="anu-header">
+                    <a
+                      href="http://silviaportal.pythonanywhere.com/"
+                      target="_blank"
+                      >Demo</a
+                    >
+                    <h5>FLASK</h5>
+                    <a
+                      href="https://github.com/SilviaSanjose/Portal_Anuncios_Flask"
+                      target="_blank"
+                      >Code</a
+                    >
+                  </div>
+                  <div class="anu-img">
+                    <img
+                      src="static/media/flask.png"
+                      alt="imagen proyecto Flask"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 anu-sep mx-auto">
+                <div class="anu-box">
+                  <div class="anu-header">
+                    <a
+                      href="https://github.com/SilviaSanjose/Music_Project_DB_PyQt5/tree/master/demo"
+                      target="_blank"
+                      >Demo</a
+                    >
+                    <h5>PYQT5</h5>
+                    <a
+                      href="https://github.com/SilviaSanjose/Music_Project_DB_PyQt5"
+                      target="_blank"
+                      >Code</a
+                    >
+                  </div>
+                  <div class="anu-img video">
+                    <video controls autoplay>
+                      <source
+                        src="static/media/ProjectMusic.mov"
+                        type="video/mp4"
+                      />
+                    </video>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end row-->
+          </div>
+          <!-- end tab-->
+          <div
+            class="tab-pane fade"
+            id="javatab"
+            role="tabpanel"
+            aria-labelledby="java-tab"
+          >
+            <div class="row">
+              <div class="col-sm-12 col-md-6 anu-sep mx-auto">
+                <div class="anu-box">
+                  <div class="anu-header">
+                    <a
+                      href="https://github.com/SilviaSanjose/Java_windowbuilderApp/tree/master/Ejecutable"
+                      target="_blank"
+                      >Demo</a
+                    >
+                    <h5>JAVA(windowbuilder)</h5>
+                    <a
+                      href="https://github.com/SilviaSanjose/Java_windowbuilderApp"
+                      target="_blank"
+                      >Code</a
+                    >
+                  </div>
+                  <div class="anu-img">
+                    <img
+                      class="img-java-builder"
+                      src="static/media/JavaApp.png"
+                      alt="imagen proyecto Java"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 anu-sep mx-auto">
+                <div class="anu-box">
+                  <div class="anu-header">
+                    <a
+                      href="https://github.com/SilviaSanjose/JavaWeb_PortalAnuncios/tree/master/demo"
+                      target="_blank"
+                      >Demo</a
+                    >
+                    <h5>JAVA WEB</h5>
+                    <a
+                      href="https://github.com/SilviaSanjose/JavaWeb_PortalAnuncios"
+                      target="_blank"
+                      >Code</a
+                    >
+                  </div>
+                  <div class="anu-img">
+                    <img
+                      src="static/media/JavaWeb.png"
+                      alt="imagen proyecto Java"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end row-->
+          </div>
+          <!-- end tab-->
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p class="p-3 mb-0">© Silvia Sanjosé</p>
-        
+      <p class="p-3 mb-0">© Silvia Sanjosé</p>
     </footer>
-</body>
+  </body>
 </html>
