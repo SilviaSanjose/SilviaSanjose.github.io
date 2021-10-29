@@ -1,18 +1,26 @@
-$c-pink: #d563a8;
-$c-darkpink: #d10b83;
-$c-lightpink: #faf4f8;
+/*tecnologias al final
+git
+dialogflow
+alexa
+agile
+jira */
+//link para subir en la página
+//contacto
+
+$primary: #9a3c9c;
+$dark: #271e27;
 
 @font-face {
-  font-family: "Nunito";
-  src: url("fonts/Nunito-Regular.ttf");
+    font-family: "Nunito";
+    src: url("fonts/Nunito-Regular.ttf");
 }
 @font-face {
-  font-family: "NunitoBold";
-  src: url("fonts/Nunito-Bold.ttf");
+    font-family: "NunitoBold";
+    src: url("fonts/Nunito-Bold.ttf");
 }
 @font-face {
-  font-family: "RoseCake";
-  src: url("fonts/Rose-Cake.otf");
+    font-family: "RoseCake";
+    src: url("fonts/Rose-Cake.otf");
 }
 
 // Small devices (landscape phones, less than 576px)
@@ -33,6 +41,6 @@ $min-md: "(min-width: 768px)";
 // Large devices (desktops, 992px and up)
 $min-lg: "(min-width: 992px)";
 // Extra large devices (large desktops, 1200px and up)
-$min-xl: "(min-width: 1200px);";
+$min-xl: "(min-width: 1200px)";
 // Extra large devices (large desktops, 1400px and up)
 $min-xxl: "(min-width: 1400px);";

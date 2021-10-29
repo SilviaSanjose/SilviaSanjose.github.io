@@ -1,0 +1,29 @@
+html,
+body {
+    background-color: lighten($color: $primary, $amount: 50);
+    font-family: Nunito;
+    margin: 0;
+    font-size: 1.1em;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: NunitoBold;
+}
+
+*::-webkit-scrollbar {
+    width: 0.9em;
+    background-color: lighten($color: $dark, $amount: 80);
+}
+.anu-img::-webkit-scrollbar {
+    width: 0.6em;
+    border-radius: 0 8px 8px 0;
+}
+*::-webkit-scrollbar-thumb {
+    background-color: lighten($color: $dark, $amount: 65);
+}
+.anu-img::-webkit-scrollbar-thumb {
+    border-radius: 0 8px 8px 0;
+}

@@ -25,9 +25,9 @@ npm install
 
 👤 **Silvia Sanjosé**
 
-* Website: Silvia Sanjosé
-* Github: [@SilviaSanjose](https://github.com/SilviaSanjose)
-* LinkedIn: [@silvia-sanjose](https://linkedin.com/in/silvia-sanjose)
+-   Website: Silvia Sanjosé
+-   Github: [@SilviaSanjose](https://github.com/SilviaSanjose)
+-   LinkedIn: [@silvia-sanjose](https://linkedin.com/in/silvia-sanjose)
 
 ## 🤝 Contributing
 
@@ -39,8 +39,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Silvia Sanjosé](https://github.com/SilviaSanjose).<br />
-This project is [ISC](https://github.com/SilviaSanjose/SilviaSanjosehub.io.git/blob/master/LICENSE) licensed.
+Copyright ©[Silvia Sanjosé](https://github.com/SilviaSanjose).<br />
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

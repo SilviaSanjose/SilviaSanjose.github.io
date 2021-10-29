@@ -4,10 +4,16 @@
 }
 .projects .nav-tabs a {
     font-family: NunitoBold;
+    color: $dark;
 }
-.projects .btn.focus, .btn:focus {
-    color: $c-darkpink;
+.projects .btn,
+.btn:focus {
     box-shadow: none;
+}
+#front-tab:focus,
+#python-tab:focus,
+#java-tab:focus {
+    color: $primary;
 }
 .anu-sep {
     padding-top: 51px;
@@ -19,18 +25,21 @@
     text-align: center;
     margin-top: 18px;
 }
-.anu-header:hover a, .anu-header:hover h5{
+.anu-header:hover a,
+.anu-header:hover h5 {
     display: inline-block;
-    color: black;
+    color: $dark;
 }
-.anu-header a{
+.anu-header a {
     display: none;
-    color: black;
+    color: $dark;
 }
 .anu-img {
     height: 300px;
     overflow-y: auto;
+    border-radius: 8px;
 }
+
 .anu-box img {
     width: 100%;
 }
@@ -38,7 +47,7 @@
     text-align: center;
     background-color: #f7f1f6;
 }
-.video video{
+.video video {
     width: 100%;
     height: 98%;
 }

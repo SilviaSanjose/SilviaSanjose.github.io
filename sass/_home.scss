@@ -1,11 +1,3 @@
-body {
-    //background-color: #f3eeee;
-    background-color: $c-lightpink;
-    font-family: Nunito;
-}
-h2,h3,h4,h5,h6 {
-    font-family: NunitoBold;
-}
 header {
     background-color: black;
     position: fixed;
@@ -31,7 +23,7 @@ header a {
     align-items: center;
 }
 .nav-link:hover {
-    color: #e76eb7;
+    color: $primary;
 }
 .social li {
     display: inline-block;
@@ -42,14 +34,21 @@ header a {
     padding: 7%;
     margin-top: 31px;
     text-align: center;
-    background-image: url("media/pluma.jpg");
-    background-size: cover;
+    background-color: $primary;
+    color: #ffffff;
     @media (min-width: 768px) {
         margin-top: 60px;
     }
 }
-.about img {
-    max-width: 100%;
+.about p:first-child::before {
+    content: "<";
+    color: $dark;
+    font-weight: bold;
+}
+.about p:last-child::after {
+    content: ">";
+    color: $dark;
+    font-weight: bold;
 }
 
 /*Footer*/
@@ -59,7 +58,13 @@ footer {
     text-align: center;
     margin-top: 82px;
 }
-
-
-
-
+footer p {
+    &::before {
+        content: "<!-- ";
+        color: $primary;
+    }
+    &::after {
+        content: " -->";
+        color: $primary;
+    }
+}
